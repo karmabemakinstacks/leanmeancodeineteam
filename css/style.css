@@ -1,0 +1,187 @@
+@font-face {
+font-family: 'dpcomic';
+src: url('../fonts/dpcomic.ttf');
+}
+
+@font-face {
+font-family: 'GrandHotel-Regular';
+src: url('../fonts/GrandHotel-Regular.otf');
+}
+
+@font-face {
+font-family: 'LeagueGothic-Regular';
+src: url('../fonts/LeagueGothic-Regular.otf');
+}
+
+@font-face {
+font-family: 'BebasNeue';
+src: url('../fonts/BebasNeue.otf');
+}
+
+@font-face {
+font-family: 'accid___';
+src: url('../fonts/accid___.otf');
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'VCR';
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+}
+
+#center {
+    color: white;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#title {               
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'dpcomic'; 
+}
+
+#marquee {
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'BebasNeue'; 
+}
+
+#marquee2 {
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: 'dpcomic'; 
+
+}
+
+#marquee3 {
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'LeagueGothic-Regular'; 
+
+}
+
+#marquee4 {
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+    font-size: 100px;
+    font-family: 'dpcomic'; 
+
+}
+
+#marquee5 {
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+    font-size: 45px;
+    font-family: 'dpcomic'; 
+
+}
+
+#title2 {
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+    font-size: 100px;
+    font-family: 'dpcomic'; 
+}
+
+#marquee2    
+a:hover {
+    color: transparent;
+    text-shadow: 0 0 1px #948E8E;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#marquee5   
+a:hover {
+    color: transparent;
+    text-shadow: 0 0 1px #948E8E;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#title   
+a:hover {
+    color: transparent;
+    text-shadow: 0 0 1px #948E8E;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#marquee
+a:hover {
+    color: transparent;
+    text-shadow: 0 0 1px #948E8E;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#bottom {
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'dpcomic';
+    overflow: hidden;
+}
